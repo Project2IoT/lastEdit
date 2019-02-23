@@ -1,0 +1,28 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">Arduino Name</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="MyRoomsName">Room 1</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="hintName">Enter Room Name *</string>
+    <string name="hintName2">Enter Description *</string>
+
+    <string name="empty_view_title_text">You did not add rooms yet </string>
+    <string name="empty_view_subtitle_text">Get started by adding a Room </string>
+    <string name="edit">Edit the Room</string>
+    <string name="add"> Add a room</string>
+    <string name="failed">There was an error! </string>
+    <string name="successful">Done!</string>
+    <string name="confirmDelete">Are you sure you want to delete the room?</string>
+    <string name="delete">Yes, delete!</string>
+    <string name="cancel">No, don\'t!</string>
+    <string name="refresh">Refresh</string>
+    <string name="deleteAll">Delete All Items</string>
+   <string name="ArduinoID">Enter Arduino ID</string>
+    <string name="ArduinoName">Enter Arduino Name</string>
+
+</resources>

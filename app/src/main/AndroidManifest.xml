@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.demo2">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="LS Control System"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="LS Control System"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".MyArduino" android:label="My Arduino"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".DoorsAndWindows" android:label="Doors And Windows"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".Support" android:label="Support"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Room" android:label="Rooms"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".EditorActivity" android:label="Edit your Room"
+            android:theme="@style/AppTheme"
+            />
+        <provider
+            android:name=".data.RoomProvider"
+            android:authorities="com.example.android.demo2"
+            android:exported="false" />
+
+
+    </application>
+</manifest>
+
